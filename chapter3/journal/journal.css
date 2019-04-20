@@ -4,9 +4,22 @@
          url("../journal/fonts/EmblemaOne-Regular.ttf");
         
 }
+h1,h2{
+    color: #cc6600;
+    text-decoration: underline;
+}
 h1{
     font-family:"Emblema One", sans-serif;
 }
 body{
     font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: small;
+}
+h2{
+    font-size: 130%;
+    font-weight: normal;
+}
+
+blockquote{
+    font-style: italic;
 }
