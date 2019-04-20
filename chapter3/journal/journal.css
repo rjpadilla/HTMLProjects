@@ -6,7 +6,7 @@
 }
 h1,h2{
     color: #cc6600;
-    text-decoration: underline;
+    border-bottom: thin dotted #888888;
 }
 h1{
     font-family:"Emblema One", sans-serif;
