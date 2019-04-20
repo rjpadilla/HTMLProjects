@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "Emblema One";
+    src: url("../journal/fonts/EmblemaOne-Regular.woff"),
+         url("../journal/fonts/EmblemaOne-Regular.ttf");
+        
+}
+h1{
+    font-family:"Emblema One", sans-serif;
+}
+body{
+    font-family: Verdana, Geneva, Arial, sans-serif;
+}
