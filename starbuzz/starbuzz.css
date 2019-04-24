@@ -75,3 +75,16 @@ body {
   #tableRow{
     display:  table-row;
   }
+
+  #drinks{
+      display: table-cell;
+      background-color: #efe5d0;
+      width: 20%;
+      padding: 15px;
+      vertical-align: top;
+  }
+
+   #headerSlogan{
+       float: right;
+   }
+  
