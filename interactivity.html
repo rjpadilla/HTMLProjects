@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Your HTML Page</title>
+        <script>
+            window.onload = init;
+            function init(){
+                var submitButton = document.getElementById("submitButton");
+                submitButton.onclick = validBid;
+            }
+
+            function validBid(){
+                if(document.getElementById("bid").value >0){
+                    document.getElementById("theForm").submit();
+                }else{
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form id="theForm" method="post" action="contest.php">
+            <input type ="number" id="bid" value="0"><br>
+            <input type="button" id="submitButton" value="Bid!"><br>
+        </form>
+    </body>
+</html>
